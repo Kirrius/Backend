@@ -88,7 +88,7 @@ if __name__ == "__main__":
             print("Пароль: ")
             password = input()
             db.register_user(username, email, password)
-        #Вход
+        #Вход для старых пользователей
         elif key_of_junction == 2:
             print("Хорошо, для входа введите логин и пароль:")
             print("Логин: ")
